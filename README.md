@@ -1,9 +1,9 @@
 # MernBlogProject
 <h1>Project Feature</h1>
 
-<li>
-<ul>Create Blog post with title,description,image</ul>
-<ul>Authentication</ul>
-<ul>Redux<ul>
-<ul>CRUD Operation</ul>
-</li>
+<ul>
+<li>Create Blog post with title,description,image</li>
+<li>Authentication</li>
+<li>Redux</li>
+<li>CRUD Operation</li>
+</ul>
