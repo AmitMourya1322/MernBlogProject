@@ -3,7 +3,8 @@ import mongoose from 'mongoose';
 import cors  from 'cors'
 import router  from './routes/user-routes.js'
 import blogRouter from './routes/blog-routes.js';
-mongoose.connect('mongodb+srv://amitKumar:Gvpq5p7un2@cluster0.kpm6gjf.mongodb.net/newApp?retryWrites=true&w=majority', {
+//add your mongoose id to connect
+mongoose.connect('mongodb+srv://<username>:<password>@cluster0.kpm6gjf.mongodb.net/newApp?retryWrites=true&w=majority', {
 	useNewUrlParser: true, 
 	useUnifiedTopology: true 
 }).then(() => console.log("Connected to MongoDB")).catch(console.error);
